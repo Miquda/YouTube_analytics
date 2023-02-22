@@ -23,6 +23,3 @@ class Channel():
     def __repr__(self):
         return f'Channel ID - {self.channel_id}'
 
-channel_one = Channel('UCSJ4gkVC6NrvII8umztf0Ow')
-channel_two = Channel('UCGBpxWJr9FNOcFYA5GkKrMg')
-print(channel_two.print_info())
